@@ -47,15 +47,12 @@ print(f"X = {x} Y = {y}")
 
 """
 N = int(input("Введите число: "))
-res = "1"
-temp = 1
+res = ""
+i = 0
 
-for i in range(1, N):
-  temp = 2 * temp
-  if temp > N:
-    break
-  else:
-    res += f" {temp}"
+while 2 ** i <= N:
+  res += f"{2 ** i} "
+  i += 1
 
 print(res)
 """
