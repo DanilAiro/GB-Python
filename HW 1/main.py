@@ -15,7 +15,7 @@ print(n1 + n2 + n3)
 """
 S = int(input("Введите число журавликов: "))
 petia = S // 6
-serega = S // 6
+serega = petia
 katia = 2 * (petia + serega)
 print(f"Петя сделал: {petia} журавликов")
 print(f"Серёжа сделал: {serega} журавликов")
