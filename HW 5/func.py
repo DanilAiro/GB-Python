@@ -9,6 +9,3 @@ def sum(a, b):
         return a + 0
 
     return sum(a + 1, b - 1)
-
-
-    
