@@ -16,11 +16,12 @@ def func(list_1, abc):
       res.add(count)
     return res
 
-my_str = "пара-ра-рам рам-пам-папам па-ра-па-да"
+my_str = input("Введите стих: ")
+# my_str = "пара-ра-рам рам-пам-папам па-ра-па-да"
 
 abc = "аеёиоуыэюя"
 
-# print("Парам пам-пам" if len(func(my_str.split(), abc)) == 1 else "Пам парам")
+print("Парам пам-пам" if len(func(my_str.split(), abc)) == 1 else "Пам парам")
 
 
 # Задача 36: Напишите функцию print_operation_table(operation, num_rows=6, num_columns=6), 
