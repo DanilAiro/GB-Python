@@ -38,4 +38,4 @@ def print_operation_table(func, x, y):
       temp_str += f"{func(rows, cols)}  "
     print(temp_str)
       
-print_operation_table(lambda x, y: x * y, 6, 6)
+# print_operation_table(lambda x, y: x * y, 6, 6)
